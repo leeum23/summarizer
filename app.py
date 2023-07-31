@@ -1,5 +1,6 @@
 import streamlit as st
 import time 
+import os 
 #from dotenv import load_dotenv
 from PyPDF2 import PdfReader
 from langchain.text_splitter import CharacterTextSplitter
@@ -20,8 +21,8 @@ from langchain.prompts.prompt import PromptTemplate
 
 
 
-os.environ['OPENAI_API_KEY'] = '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'
-os.environ['HUGGINGFACEHUB_API_TOKEN'] = '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'
+openai.api_key = os.environ["OPENAI_API_KEY"]
+#os.environ['HUGGINGFACEHUB_API_TOKEN'] = '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'
 
 def get_pdf_text(pdf_docs):
     text = ""
