@@ -1,0 +1,10 @@
+streamlit==0.84.0
+PyPDF2==1.26.0
+langchain==0.1.0
+langchain-embeddings==0.1.0
+langchain-vectorstores==0.1.0
+langchain-chat_models==0.1.0
+langchain-prompts==0.1.0
+langchain-schema==0.1.0
+langchain-chains==0.1.0
+langchain-memory==0.1.0
