@@ -19,10 +19,8 @@ import os
 from langchain.chains.qa_with_sources import load_qa_with_sources_chain
 from langchain.prompts.prompt import PromptTemplate
 
-
-
 openai.api_key = os.environ["OPENAI_API_KEY"]
-#os.environ['HUGGINGFACEHUB_API_TOKEN'] = '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'
+
 
 def get_pdf_text(pdf_docs):
     text = ""
