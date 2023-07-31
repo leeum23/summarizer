@@ -19,7 +19,7 @@ import os
 from langchain.chains.qa_with_sources import load_qa_with_sources_chain
 from langchain.prompts.prompt import PromptTemplate
 
-openai.api_key=st.secrets["api"]
+openai.api_key=st.secrets["OPENAI_API_KEY"]
 
 
 def get_pdf_text(pdf_docs):
